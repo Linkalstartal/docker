@@ -151,4 +151,3 @@
       shell: cp -r /opt/DiscuzX/upload  /usr/local/nginx/html
     - name: file
       file: path=/usr/local/nginx/html/upload  mode=0777 recurse=yes 
-
